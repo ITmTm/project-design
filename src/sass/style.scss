@@ -8,7 +8,7 @@ html {
 *, *::after, *::before {
   box-sizing: inherit;
 }
-h1,h2,h3,h4,h5,h6{
+h1,h2,h3,h4,h5,h6, p{
   margin: 0;
 }
 ul,
@@ -23,10 +23,14 @@ body {
   overflow-x: hidden;
   font-family: 'MazzardL-Regular', 'Arial', sans-serif;
   font-weight: 500;
+  font-style: normal;
 }
 
 
 .container {
-  max-width: 1830px;
+  max-width: 1500px;
   margin: 0 auto;
 }
+
+
+@import "blocks/menu";
